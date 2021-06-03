@@ -1,0 +1,140 @@
+@import "mixins.scss";
+
+// Podklyuchenie shrifti
+
+// -- Podklyuchenie shrifti
+
+// Shrift po umaolchnie
+$fontfamily: "Montserrat Alternates", sans-serif;
+$fontfamilyN: "Nunito", sans-serif;
+// -- Shrift po umaolchnie
+
+// Peremennie
+$minwidth: 320px;
+$mw: 1170;
+$md1: $mw + 12;
+$md2: 992.98;
+$md3: 767.98;
+$md4: 479.98;
+// -- Peremennie
+
+$color1: #aaa8d0;
+$color2: #eeb7bd;
+
+// Obolochka
+.wrapper {
+  // width: 100%;
+  overflow: hidden;
+  // @include flexbox();
+  // flex-direction: column;
+  min-height: 100%;
+  // &.loaded{}
+}
+//-- Obolochka
+
+// Osnovaya setka
+._container {
+  max-width: $mw + px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+  @media (max-width: $md1+px) {
+    max-width: 970px;
+  }
+  @media (max-width: $md2+px) {
+    max-width: 800px;
+  }
+  @media (max-width: $md3+px) {
+    max-width: none;
+    padding: 0 10px;
+  }
+  @media (max-width: $md4+px) {
+  }
+}
+//-- Osnovaya setka
+
+// Podklyucheni UI stiley
+@import "ui.scss";
+@import "forms.scss";
+//-- Podklyucheni UI stiley
+
+// Podklyuchenie faylov
+@import "header.scss";
+@import "footer.scss";
+@import "input.scss";
+//-- Podklyuchenie faylov
+
+// ==================================================================================================================
+.page {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+// =======================================================================================================
+
+@import "mainpage.scss";
+@import "about.scss";
+@import "adv.scss";
+@import "services.scss";
+@import "designer.scss";
+@import "contacts.scss";
+
+.navbar__actions {
+  @include flexbox();
+  align-items: center;
+}
+.navbar__content {
+  @include flexbox();
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: $md2+px) {
+    justify-content: flex-end;
+  }
+}
+.navbar__phone {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.navbar__lang {
+  margin-left: 20px;
+  @include anim(0.3s, 0s);
+  &._active {
+    margin-right: -6px;
+    margin-left: 12px;
+  }
+  &--ru {
+    display: none;
+    &._active {
+      display: block;
+    }
+  }
+  &--uz {
+    display: none;
+    &._active {
+      display: block;
+    }
+  }
+}
+.navbar__phonearea {
+  @media (max-width: $md4+px) {
+    @include anim(0.6s, 0s);
+    background: url("../img/phone.png") no-repeat;
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    position: relative;
+    &._active {
+      // left: 10px;
+    }
+    a {
+      // @include anim(0.6s, 0s);
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      font-size: 0;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "nav-link1": "Biz haqimizda",
+    "nav-link2": "Portfolio",
+    "nav-link3": "Xizmatlar",
+    "nav-link4": "Bog'lanish"
+  },
+  "header": {
+    "title": "Dizayn qilamiz"
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "text": "Biz buyurtmalarni yuqori sifatli va did bilan bajarishga tayyor bo'lgan ijodiy dizaynerlar guruhimiz.",
+    "title2": "Biz nima qila olamiz?",
+    "textBox1": "Yuqori sifatli ish.",
+    "textBox2": "Asl g'oyalar.",
+    "textBox3": "Belgilangan muddat."
+  },
+  "adv": {
+    "title": "Biz nima uchun ishlaymiz?",
+    "box1Text":"Figma - bu interfeysni ishlab chiqish va prototip yaratish uchun onlayn xizmat",
+    "box2Text":"Figma - bu interfeysni ishlab chiqish va prototip yaratish uchun onlayn xizmat",
+    "box3Text":"Figma - bu interfeysni ishlab chiqish va prototip yaratish uchun onlayn xizmat",
+    "box4Text":"Figma - bu interfeysni ishlab chiqish va prototip yaratish uchun onlayn xizmat"
+  },
+  "works": {
+    "title": "Bizning ishimiz",
+    "circle1": "O'zingizning saytlaringiz uchun dizayn",
+    "circle2": "Sizning kompaniyalaringiz uchun logotiplar",
+    "circle3": "Veb-saytlarni kodlash"
+  },
+  "designers": {
+    "title": "Biz",
+    "name1": "Настасья",
+    "name2": "Славушка",
+    "text1": "Muammoni ijod qilish, muhokama qilish va shakllantirish, jarayonni boshqarish va bizning ishimizdan qoniqadigan barcha narsalar.",
+    "text2": "Timsollarning dizayni, ochilish sahifalari, shuningdek biznesga mas'uliyatli",
+    "text3": " yondoshgan holda har qanday o'ylab topilgan grafik ob'ektlarni vizualizatsiya qilish."
+  },
+  "contact": {
+    "title": "Biz bilan bog'lanish",
+    "btn": "Xabar yuboring",
+    "form": {
+      "name": "Ism"
+    }
+  }
+}
